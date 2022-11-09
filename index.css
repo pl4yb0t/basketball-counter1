@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background-color: #150050;
+    color : white;
+    padding: 0;
+}
+h2{
+
+  font-size: 4rem;
+  text-align: center;
+margin: auto;
+
+}
+h3 {
+  font-size: 4rem;
+  margin-bottom: 0
+}
+p {
+  font-size: 10rem;
+  color: red;
+  font-family: "Black Ops One";
+  margin: auto;
+  text-align: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.guestCont {
+background-color: black;
+border-radius: 10%
+
+}
+
+.homeCont {
+  background-color: black;
+ border-radius: 10%;
+}
+
+.btn {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #4f4f4f);
+  background-image: -moz-linear-gradient(top, #ffffff, #4f4f4f);
+  background-image: -ms-linear-gradient(top, #ffffff, #4f4f4f);
+  background-image: -o-linear-gradient(top, #ffffff, #4f4f4f);
+  background-image: linear-gradient(to bottom, #ffffff, #4f4f4f);
+  -webkit-border-radius: 24;
+  -moz-border-radius: 24;
+  border-radius: 14px;
+  font-family: Georgia;
+  color: #0d000d;
+  font-size: 23px;
+  padding: 10px 20px 10px 20px;
+  border: solid #828282 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #d4040b;
+  background-image: -webkit-linear-gradient(top, #d4040b, #520101);
+  background-image: -moz-linear-gradient(top, #d4040b, #520101);
+  background-image: -ms-linear-gradient(top, #d4040b, #520101);
+  background-image: -o-linear-gradient(top, #d4040b, #520101);
+  background-image: linear-gradient(to bottom, #d4040b, #520101);
+  text-decoration: none;
+}
+
+.newGameBtn{
+
+  margin-left: 40%;
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #4f4f4f);
+  background-image: -moz-linear-gradient(top, #ffffff, #4f4f4f);
+  background-image: -ms-linear-gradient(top, #ffffff, #4f4f4f);
+  background-image: -o-linear-gradient(top, #ffffff, #4f4f4f);
+  background-image: linear-gradient(to bottom, #ffffff, #4f4f4f);
+  -webkit-border-radius: 24;
+  -moz-border-radius: 24;
+  border-radius: 14px;
+  font-family: Georgia;
+  color: #0d000d;
+  font-size: 23px;
+  padding: 10px 20px 10px 20px;
+  border: solid #828282 2px;
+  text-decoration: none;
+}

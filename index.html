@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <div class="homeCont">
+                  <p id="scoreEl1">0</p>
+                </div>
+                <div class="">
+                  <button class="Btn" onclick="addOne1()">+1</button>
+                  <button class="Btn" onclick="addTwo1()">+2</button>
+                  <button class="Btn" onclick="addThree1()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <div class="guestCont">
+                  <p id="scoreEl2">0</p>
+                </div>
+                <div class="">
+                  <button class="Btn" onclick="addOne2()">+1</button>
+                  <button class="Btn" onclick="addTwo2()">+2</button>
+                  <button class="Btn" onclick="addThree2()">+3</button>
+                </div>
+            </div>
+        </div>
+
+        <button class="Btn newGameBtn" name="New Game" onclick="newGame()">New Game</button>
+        <h2 id="message"></h2>
+        <script src="index.js"></script>
+        </body>
+</html>

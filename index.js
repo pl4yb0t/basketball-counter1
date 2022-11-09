@@ -18,7 +18,7 @@ function addThree1() {
   scoreEl1.textContent = score1;
 }
 
-//Guest Buttons
+//Away Buttons
 
 function addOne2() {
   score2 += 1;
@@ -40,7 +40,7 @@ function newGame(){
     message.textContent="Home Team WON!!"
 
   } else if (score2 > score1) {
-   message.textContent="Guest Team WON!!"
+   message.textContent="Away Team WON!!"
 
  } else {
    message.textContent="A Draw !! What a match !!"

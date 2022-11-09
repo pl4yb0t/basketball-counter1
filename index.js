@@ -37,13 +37,13 @@ function addThree2() {
 let message = document.getElementById("message");
 function newGame(){
   if (score1 > score2) {
-    message.textContent="Home Team WON!!" + score1 + "-" score2;
+    message.textContent="Home Team WON!!"
 
   } else if (score2 > score1) {
-   message.textContent="Away Team WON!!" + score2 + "-" score1;
+   message.textContent="Away Team WON!!"
 
  } else {
-   message.textContent="A Draw !! What a match !!" + score1 + "-" score2;
+   message.textContent="A Draw !! What a match !!"
 
  }
  score1 = 0;
